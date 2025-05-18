@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class number_binary {
+    
+    int number;
+    
+    
+    public static void main(String  args[]) {
+        
+        Scanner scan = new Scanner(System.in);
+        int number = scan.nextInt();
+        
+        boolean run = true;
+            
+        for (int i = number; run == true; i/=2) {
+            
+            if (i == 0) {
+                run = false;
+            }
+            
+            if (i % 2 == 0 && i != 0) {
+                System.out.println(0);
+            }
+            
+            if (i % 2 == 1) {
+                System.out.println(1);
+            }
+        }
+    }
+}
