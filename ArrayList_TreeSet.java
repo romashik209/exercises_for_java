@@ -2,11 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeSet;
 
-
-public class ArrList_TreeSet {
+public class ArrayList_TreeSet {
 
     public static void main(String[] args) {
-        
+
         List<Integer> arrli = new ArrayList<>();
         arrli.add(14);
         arrli.add(13);
