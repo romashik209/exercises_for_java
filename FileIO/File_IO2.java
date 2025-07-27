@@ -51,5 +51,12 @@ public class File_IO2 {
         } catch (Exception e) {
             e.getStackTrace();
         }
+
+        boolean value = example.delete(); // deleting the file
+        if (value) {
+            System.out.println("The File is deleted.");
+        } else {
+            System.out.println("The File is not deleted.");
+        }
     }
 }
